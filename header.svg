@@ -1,0 +1,90 @@
+<svg width="8http://www.w3.org/2000/svg00" height="250" viewBox="0 0 800 250" fill="none" xmlns="">
+  <style>
+    /* 核心文字样式 */
+    .title { 
+      font-family: 'Segoe UI', system-ui, sans-serif; 
+      font-weight: 800; 
+      font-size: 46px; 
+      fill: #F8FAFC; 
+      letter-spacing: 2px;
+    }
+    .subtitle { 
+      font-family: 'Fira Code', 'Consolas', monospace; 
+      font-size: 16px; 
+      fill: #94A3B8; 
+    }
+    
+    /* 动画定义 */
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes draw-path {
+      from { stroke-dashoffset: 1200; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes cursor-blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* 动画类绑定 */
+    .floating { animation: float 6s ease-in-out infinite; }
+    .glowing-node-1 { animation: pulse-glow 4s ease-in-out infinite; }
+    .glowing-node-2 { animation: pulse-glow 5s ease-in-out infinite alternate; }
+    .animated-path { 
+      stroke-dasharray: 1200; 
+      stroke-dashoffset: 1200; 
+      animation: draw-path 3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards; 
+    }
+    .cursor { animation: cursor-blink 1s step-end infinite; }
+  </style>
+
+  <!-- 深色科技感背景 -->
+  <rect width="800" height="250" rx="12" fill="#0B1120"/>
+
+  <!-- 环境光效渐变定义 -->
+  <defs>
+    <radialGradient id="blue-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 50) scale(250)">
+      <stop stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purple-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(650 200) scale(300)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <!-- 渲染环境光 -->
+  <rect width="800" height="250" fill="url(#blue-glow)"/>
+  <rect width="800" height="250" fill="url(#purple-glow)"/>
+
+  <!-- 动态连接线与节点 -->
+  <g opacity="0.8">
+    <path d="M 100 125 C 250 20, 550 230, 700 125" fill="none" stroke="#4C1D95" stroke-width="2" class="animated-path" opacity="0.5"/>
+    <path d="M 150 180 C 300 250, 500 0, 650 70" fill="none" stroke="#1D4ED8" stroke-width="2" class="animated-path"/>
+    
+    <circle cx="150" cy="180" r="4" fill="#60A5FA" class="glowing-node-1"/>
+    <circle cx="650" cy="70" r="6" fill="#A78BFA" class="glowing-node-2"/>
+    <circle cx="700" cy="125" r="3" fill="#34D399" class="glowing-node-1"/>
+    <circle cx="100" cy="125" r="5" fill="#F472B6" class="glowing-node-2"/>
+  </g>
+
+  <!-- 悬浮文字组 -->
+  <g class="floating">
+    <text x="400" y="115" text-anchor="middle" class="title">
+      Hi, I'm <tspan fill="url(#text-gradient)">Your Name</tspan>
+    </text>
+    <text x="400" y="160" text-anchor="middle" class="subtitle">
+      > Architecting scalable systems & Writing elegant code<tspan class="cursor" fill="#60A5FA">_</tspan>
+    </text>
+  </g>
+</svg>
