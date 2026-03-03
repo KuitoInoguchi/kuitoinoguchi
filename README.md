@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 (Under development. Do not trust any following information.)
 
 <!--
 **KuitoInoguchi/kuitoinoguchi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
