@@ -1,110 +1,70 @@
-## Hi there 👋 (Under development. Do not trust any following information.)
+<div align="center">
+  <img src="./header.svg" width="100%" alt="KuitoInoguchi - building playful review tools and learning machines" />
+</div>
 
-<!--
-**KuitoInoguchi/kuitoinoguchi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br />
 
 <div align="center">
-<!-- 引入自定义SVG动态头图 -->
-<img src="./header.svg" width="100%" alt="Header Animation" />
 
+**把学习材料做成交互，把代码写成可以反复验证的东西。**<br />
+*Turning study notes into interfaces, and small ideas into testable tools.*
 
-
-
-🚀 探索技术的边界 | 🛠 构建优雅的逻辑
+[![GitHub](https://img.shields.io/badge/GitHub-KuitoInoguchi-181717?style=flat-square&logo=github)](https://github.com/KuitoInoguchi)
+[![Main Project](https://img.shields.io/badge/Now-hist--interactive--review-2f81f7?style=flat-square)](https://github.com/KuitoInoguchi/hist-interactive-review)
+[![Live Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-16a34a?style=flat-square)](https://kuitoinoguchi.github.io/hist-interactive-review/)
 
 </div>
 
-💡 关于我 (About Me)
+## About Me / 关于我
 
-🔭 目前正在开发：[你的核心项目名称] - 一款基于前沿技术栈的高性能解决方案。
+你好，我是 **KuitoInoguchi**。我喜欢把学习、工具和一点点个人趣味揉在一起：一边做交互式复习应用，一边用 Python / Notebook 练 AI，用 Java / C 打底，也会给音乐学习和博客折腾一些小工具。
 
-🌱 目前正在深入学习：分布式系统架构 与 WebAssembly。
+I build compact, personal tools: web interfaces for review, notebooks for AI practice, and small projects that make learning less passive.
 
-💬 乐于交流探讨：Golang, React, System Design, DevOps。
+- **Currently building:** [`hist-interactive-review`](https://github.com/KuitoInoguchi/hist-interactive-review), a TypeScript + React + Vite review app for Chinese modern history notes.
+- **Recent activity:** intense iteration on `dev` and `gh-pages`, merged PR work, and a live GitHub Pages deployment.
+- **Learning track:** AI practice, handwritten digit recognition, deep learning homework, algorithms, and course projects.
+- **Taste:** code should explain the idea, not bury it.
 
-📫 联系方式：your.email@example.com
+## Featured Work / 代表项目
 
-⚡ 个人信条：Talk is cheap. Show me the code.
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [`hist-interactive-review`](https://github.com/KuitoInoguchi/hist-interactive-review) | 中国近现代史纲要交互式复习应用，支持题库生成、交互练习、资料定位和静态部署。<br />Interactive review app for history notes, with generated questions and source-linked study material. | TypeScript, React, Vite |
+| [`mnist_handwriting_recognition`](https://github.com/KuitoInoguchi/mnist_handwriting_recognition) | MNIST 手写数字识别练习项目。<br />A machine learning practice project for handwritten digit recognition. | Python |
+| [`python-for-ai`](https://github.com/KuitoInoguchi/python-for-ai) | 深度学习作业与 Notebook 实验。<br />Deep learning homework and notebook-based AI practice. | Jupyter Notebook, Python |
+| [`Piano-Sight-Reading-Practice`](https://github.com/KuitoInoguchi/Piano-Sight-Reading-Practice) | 面向钢琴初学者的识谱练习工具。<br />A sight-reading helper for people learning piano. | TypeScript |
+| [`LeetCode-Life`](https://github.com/KuitoInoguchi/LeetCode-Life) | 个人算法练习记录。<br />Personal LeetCode solutions and algorithm notes. | Java |
+| [`my-blog`](https://github.com/KuitoInoguchi/my-blog) | 个人博客方向的轻量尝试。<br />A small personal blog experiment. | Astro |
 
-🛠 技术栈 (Tech Stack)
+## Tech Stack / 技术栈
 
 <div align="center">
-<!-- 核心语言 -->
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Go-00ADD8%3Fstyle%3Dfor-the-badge%26logo%3Dgo%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-007ACC%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" />
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
-
-
-<!-- 前端框架 -->
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/React-20232A%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D61DAFB" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Next.js-000000%3Fstyle%3Dfor-the-badge%26logo%3Dnext.js%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" />
-
-
-
-
-
-<!-- 后端与基础设施 -->
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/PostgreSQL-316192%3Fstyle%3Dfor-the-badge%26logo%3Dpostgresql%26logoColor%3Dwhite" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Docker-2CA5E0%3Fstyle%3Dfor-the-badge%26logo%3Ddocker%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Kubernetes-326CE5%3Fstyle%3Dfor-the-badge%26logo%3Dkubernetes%26logoColor%3Dwhite" />
 </div>
 
-📊 Github 概况 (Stats)
+## GitHub Snapshot / 活动概况
 
 <div align="center">
-<!-- 替换 ?username=你的GitHub用户名 -->
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dtorvalds%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0B1120" width="48%" />
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dtorvalds%26theme%3Dtokyonight%26hide_border%3Dtrue%26background%3D0B1120" width="48%" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=KuitoInoguchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&rank_icon=github" width="49%" alt="KuitoInoguchi GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KuitoInoguchi&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&hide=html" width="41%" alt="KuitoInoguchi top languages" />
+
 </div>
 
-<div align="center">
-<!-- 语言占比统计图 -->
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dtorvalds%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0B1120" width="60%" />
-</div>
-
-🔥 精选项目 (Pinned Projects)
-
-项目名称
-
-描述
-
-技术栈
-
-🌐 Project Alpha
-
-分布式高并发数据处理引擎
-
-Go, gRPC, Kafka
-
-🛠️ Project Beta
-
-面向开发者的现代化生产力工具
-
-React, Electron, Rust
-
-📦 Project Gamma
-
-基于边缘计算的微服务治理网关
-
-C++, Redis, Docker
+<br />
 
 <div align="center">
-<sub><i>Generated with Code & Coffee ☕</i></sub>
+  <sub>Built from public repositories and recent activity. 公开仓库会说话，我只是把它们排了个版。</sub>
 </div>
